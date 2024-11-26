@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Project Name - Omar's Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">Omar Rodriguez-Becerra</a>
+            </header>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="index.html">Projects</a></li>
+                    <li class="active"><a href="#">Current Project</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/omarr04/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+                <!-- Project Content -->
+                <section class="post">
+                    <header class="major">
+                        <h1>Artist-Song Graph Database System</h1>
+                        <p>Course: Data Structures and Algorithms<br />
+                            Type: Partner Project<br />
+                            Timeline: Fall, 2024</p>
+                    </header>
+
+                    <!-- Project Overview -->
+                    <h2>Project Overview</h2>
+                    <p>Developed a music database system implementing both hash tables and graph data structures to manage 
+                        relationships between artists and their songs. The system utilizes extensible hash tables for 
+                        efficient artist and song lookups, along with an adjacency list-based graph structure to represent 
+                        artist-song relationships. The project features dynamic data structure expansion, string-based 
+                        hash functions, and graph analysis capabilities including connected components computation using 
+                        the Union/Find algorithm.</p>
+
+                    <!-- Technical Details -->
+                    <h2>Technical Implementation</h2>
+<ul>
+   <li>Data Structures Used:
+       <ul>
+           <li>Extensible Hash Tables:
+               <ul>
+                   <li>One for artist name lookups</li>
+                   <li>One for song title lookups</li>
+                   <li>Implementation using quadratic probing</li>
+                   <li>Dynamic resizing when 50% capacity reached</li>
+               </ul>
+           </li>
+           <li>Graph Structure:
+               <ul>
+                   <li>Adjacency list implementation</li>
+                   <li>Nodes representing artists and songs</li>
+                   <li>Edges representing recording relationships</li>
+                   <li>Support for Union/Find operations</li>
+               </ul>
+           </li>
+       </ul>
+   </li>
+   <li>Algorithms Implemented:
+       <ul>
+           <li>Hash Functions & Operations:
+               <ul>
+                   <li>sfold string hash function for string keys</li>
+                   <li>Quadratic probing for collision resolution (i² probe sequence)</li>
+                   <li>Dynamic table resizing and rehashing</li>
+               </ul>
+           </li>
+           <li>Graph Operations:
+               <ul>
+                   <li>Connected component analysis using Union/Find</li>
+                   <li>Node insertion and deletion</li>
+                   <li>Edge management for artist-song relationships</li>
+                   <li>Graph traversal for component analysis</li>
+               </ul>
+           </li>
+       </ul>
+   </li>
+</ul>
+
+                    <!-- My Role (for group projects) -->
+                    <h2>My Contributions</h2>
+<ul>
+   <li>Project Management & Leadership
+       <ul>
+           <li>Coordinated and facilitated partner meetings for design discussions and implementation work</li>
+           <li>Established project timeline with specific deadlines for deliverables</li>
+           <li>Managed project milestones to ensure timely completion</li>
+       </ul>
+   </li>
+   <li>Technical Implementation
+       <ul>
+           <li>Led development of core data structures:
+               <ul>
+                   <li>Graph class for artist-song relationship management</li>
+                   <li>Hash class implementing extensible hash tables</li>
+                   <li>DoubleLL class for efficient list operations</li>
+               </ul>
+           </li>
+           <li>Integrated these components within the system's architecture alongside:
+               <ul>
+                   <li>CommandProcessor for handling user inputs</li>
+                   <li>Controller for system coordination</li>
+                   <li>Node and Record classes for data management</li>
+                   <li>GraphProject main class</li>
+               </ul>
+           </li>
+       </ul>
+   </li>
+   <li>Quality Assurance
+       <ul>
+           <li>Wrote comprehensive documentation and comments to facilitate team communication</li>
+           <li>Developed extensive test suites for implemented classes</li>
+           <li>Achieved 90% mutation testing coverage through thorough testing strategies</li>
+           <li>Ensured code reliability through systematic testing approaches</li>
+       </ul>
+   </li>
+</ul>
+
+                    <!-- Results -->
+<h2>Results & Output</h2>
+<div class="box alt">
+    <!-- Input Files Row -->
+    <h3>Input File Example</h3>
+    <div class="row gtr-50 gtr-uniform">
+        <div class="col-6"><span class="image fit"><img src="images/p3i1.png" alt="Input File" /></span></div>
+    </div>
+    
+    <!-- Output Files Row -->
+    <h3>Output</h3>
+    <div class="row gtr-50 gtr-uniform">
+        <div class="col-4"><span class="image fit"><img src="images/p3o1.png" alt="Output" /></span></div>
+    </div>
+</div>
+<p><p>The input files demonstrate various commands being processed by our graph-based music system, 
+    including insertions of artists and songs, removal operations, and database printing requests. 
+    The output files showcase the system's responses, showing successful record insertions, 
+    duplicate handling, hash table resizing, proper error messaging for non-existent records, 
+    and graph component analysis results. 
+    The system effectively maintains database integrity while tracking statistics 
+    for both artists and songs through their respective hash tables.</p></p>
+
+                                       <!-- Notes -->
+<h2>Notes</h2>
+<p>Due to Virginia Tech's Academic Honor Code, the actual implementation code cannot be shared publicly. 
+    The details provided above focus on the design concepts, technical approaches, and results while 
+    maintaining academic integrity.</p>
+                </section>
+            </div>
+
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

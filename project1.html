@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Project Name - Omar's Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">Omar Rodriguez-Becerra</a>
+            </header>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="index.html">Projects</a></li>
+                    <li class="active"><a href="#">Current Project</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/omarr04/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+                <!-- Project Content -->
+                <section class="post">
+                    <header class="major">
+                        <h1>Seminar Record Management System</h1>
+                        <p>Course: Data Structures and Algorithms<br />
+                        Type: Partner Project<br />
+                        Timeline: Fall, 2024</p>
+                    </header>
+
+                    <!-- Project Overview -->
+                    <h2>Project Overview</h2>
+                    <p>Implemented a comprehensive memory management system for storing and managing variable-length seminar records, 
+                        integrating both a memory pool manager and a hash table for efficient record retrieval. The system was 
+                        designed to handle dynamic memory allocation with a first-fit approach and extensible hash table 
+                        implementation. This project required managing serialized seminar records containing multiple 
+                        fields including title, date/time, length, keywords, location coordinates, description, cost, and unique ID.</p>
+
+                    <!-- Technical Details -->
+                    <h2>Technical Implementation</h2>
+                    <ul>
+                        <li>Data Structures Used: 
+                            <ul>
+                            <li>Hash Table with quadratic probing for collision resolution</li>
+                            <li> Doubly linked list for managing free memory blocks</li>
+                            <li>Byte array for the memory pool</li>
+                            <li>Record serialization system for seminar data</li>
+                        </ul></li>
+                        <li>Algorithms Implemented: 
+                            <ul>
+                            <li>Hash function: h(k) = k mod M (where M is table size)</li>
+                            <li>Quadratic probing: p(k, i) = (i² + i)/2</li>
+                            <li>First-fit memory allocation</li>
+                            <li>Free block merging algorithm</li>
+                            <li>Dynamic memory pool expansion</li>
+                        </ul></li>
+                    </ul>
+
+                    <!-- My Role (for group projects) -->
+                    <h2>My Contributions</h2>
+<ul>
+    <li>System Architecture & Design
+        <ul>
+            <li>Led the architectural design by determining and structuring the required classes: CommandProcessor, DoubleLL, FreeBlock, Handle, Hash, MemController, MemManager, and Record</li>
+            <li>Successfully integrated these components with provided starter classes (SemManager.java, Seminar.java) to meet project specifications</li>
+        </ul>
+    </li>
+    <li>Project Management
+        <ul>
+            <li>Established and managed the GitHub repository for version control and collaboration</li>
+            <li>Implemented an efficient workflow system where team members could independently select and complete tasks</li>
+            <li>Maintained regular communication with partner about progress and upcoming work through commit messages and discussions</li>
+        </ul>
+    </li>
+    <li>Code Quality & Documentation
+        <ul>
+            <li>Implemented comprehensive code documentation practices</li>
+            <li>Wrote detailed comments to ensure code clarity and maintainability</li>
+            <li>Created documentation that facilitated easier debugging and collaboration between team members</li>
+        </ul>
+    </li>
+</ul>
+
+                    <!-- Results -->
+<h2>Results & Output</h2>
+<div class="box alt">
+    <!-- Input Files Row -->
+    <h3>Input File Example</h3>
+    <div class="row gtr-50 gtr-uniform">
+        <div class="col-6"><span class="image fit"><img src="images/p1input1.png" alt="Input File" /></span></div>
+        <div class="col-6"><span class="image fit"><img src="images/p1input2.png" alt="Input File cont" /></span></div>
+    </div>
+    
+    <!-- Output Files Row -->
+    <h3>Output</h3>
+    <div class="row gtr-50 gtr-uniform">
+        <div class="col-4"><span class="image fit"><img src="images/p1output1.png" alt="Output" /></span></div>
+        <div class="col-4"><span class="image fit"><img src="images/p1output2.png" alt="Output cont" /></span></div>
+        <div class="col-4"><span class="image fit"><img src="images/p1output3.png" alt="Output cont" /></span></div>
+    </div>
+</div>
+<p>The input files show the commands being processed by our memory management system, including insertions, 
+    deletions, and searches for seminar records. The output files demonstrate the system's responses, showing 
+    successful record management operations, hash table statistics, and memory block allocations.</p>
+
+                    <!-- Notes -->
+<h2>Notes</h2>
+<p>Due to Virginia Tech's Academic Honor Code, the actual implementation code cannot be shared publicly. 
+    The details provided above focus on the design concepts, technical approaches, and results while 
+    maintaining academic integrity.</p>
+                </section>
+            </div>
+
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

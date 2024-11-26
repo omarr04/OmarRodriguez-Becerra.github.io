@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Project Name - Omar's Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">Omar Rodriguez-Becerra</a>
+            </header>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="index.html">Projects</a></li>
+                    <li class="active"><a href="#">Current Project</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/omarr04/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+                <!-- Project Content -->
+                <section class="post">
+                    <header class="major">
+                        <h1>Multi-Tree Seminar Search System</h1>
+                        <p>Course: Data Structures and Algorithms<br />
+                        Type: Partner Project<br />
+                        Timeline: Fall, 2024</p>
+                    </header>
+
+                    <!-- Project Overview -->
+                    <h2>Project Overview</h2>
+                    <p>Developed a multi-tree search system for managing seminar records using various search criteria. 
+                        The system implements multiple Binary Search Trees (BSTs) for searching by ID, cost, date, and 
+                        keywords, along with a specialized Bintree for spatial (2D location) searches. This project 
+                        showcases advanced data structure implementation with a focus on efficient search operations 
+                        and complex tree traversals. The system supports various search operations including exact 
+                        matches, range queries, and spatial proximity searches, while maintaining strict tree structure 
+                        requirements and implementing specific design patterns.</p>
+
+                    <!-- Technical Details -->
+<h2>Technical Implementation</h2>
+<ul>
+   <li>Data Structures Used:
+       <ul>
+           <li>Multiple Binary Search Trees (BSTs) for:
+               <ul>
+                   <li>ID-based search (no duplicates)</li>
+                   <li>Cost-based search (with duplicates)</li>
+                   <li>Date-based search (with duplicates)</li>
+                   <li>Keyword-based search (with duplicates)</li>
+               </ul>
+           </li>
+           <li>Bintree for spatial (2D location) searches
+               <ul>
+                   <li>Implements Flyweight pattern for empty nodes</li>
+                   <li>Uses Composite design pattern for node hierarchy</li>
+                   <li>Supports spatial range queries</li>
+               </ul>
+           </li>
+       </ul>
+   </li>
+   <li>Algorithms Implemented:
+       <ul>
+           <li>BST Operations:
+               <ul>
+                   <li>Inorder traversal for ordered data retrieval</li>
+                   <li>Range search algorithms for cost and date queries</li>
+                   <li>Modified insertion handling for duplicate keys</li>
+               </ul>
+           </li>
+           <li>Bintree Operations:
+               <ul>
+                   <li>Reverse preorder traversal</li>
+                   <li>Spatial search with circular range queries</li>
+                   <li>Bounding box intersection calculations</li>
+                   <li>Distance calculations for point-radius searches</li>
+               </ul>
+           </li>
+       </ul>
+   </li>
+</ul>
+
+<h2>My Contributions</h2>
+<ul>
+    <li>System Architecture & Design
+        <ul>
+            <li>Led the architectural design by developing multiple essential classes from minimal starter code (Seminar.java)</li>
+            <li>Designed and implemented core system components:
+                <ul>
+                    <li>Data Structure Classes: SinglyLinkedList, BST, Bintree</li>
+                    <li>Tree Components: BinNode interface, BinLeafNode, BinInternalNode, BinFlyweightNode</li>
+                    <li>System Classes: SemSearch (main), PrintHelper, KVPair, Controller, CommandProcessor</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Technical Implementation
+        <ul>
+            <li>Implemented complete Bintree functionality with Composite design pattern</li>
+            <li>Developed Binary Search Tree implementation for multiple search criteria</li>
+            <li>Ensured proper integration and communication between all system components</li>
+        </ul>
+    </li>
+    <li>Quality Assurance
+        <ul>
+            <li>Wrote comprehensive documentation and comments to facilitate debugging and maintenance</li>
+            <li>Collaborated with partner to achieve 90% mutation testing coverage requirement</li>
+            <li>Implemented robust error handling and edge case management</li>
+        </ul>
+    </li>
+</ul>
+
+                      <!-- Results -->
+<h2>Results & Output</h2>
+<div class="box alt">
+    <!-- Input Files Row -->
+    <h3>Input File Example</h3>
+    <div class="row gtr-50 gtr-uniform">
+        <div class="col-6"><span class="image fit"><img src="images/p2i1.png" alt="Input File" /></span></div>
+        <div class="col-6"><span class="image fit"><img src="images/p2i2.png" alt="Input File cont" /></span></div>
+        <div class="col-6"><span class="image fit"><img src="images/p2i3.png" alt="Input File cont" /></span></div>
+    </div>
+    
+    <!-- Output Files Row -->
+<h3>Output</h3>
+<div class="row gtr-50 gtr-uniform">
+    <div class="col-4"><span class="image fit"><img src="images/p2o1.png" alt="Output" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o2.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o2.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o3.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o4.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o5.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o6.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o7.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o8.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o9.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o10.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o11.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o12.png" alt="Output cont" class="with-border" /></span></div>
+    <div class="col-4"><span class="image fit"><img src="images/p2o13.png" alt="Output cont" class="with-border" /></span></div>
+</div>
+</div>
+<!-- Add this CSS in your stylesheet or in a <style> tag in your head section -->
+<style>
+    .with-border {
+        border: 2px solid #333;     /* Solid black border */
+        margin: 5px;                /* Space between images */
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);  /* Optional: adds a subtle shadow */
+    }
+</style>
+<p>The output files demonstrate various operations of the multi-tree search system, including:
+<ul>
+   <li>Tree traversals showing the structure of BSTs for ID, date, cost, and keyword searches</li>
+   <li>Bintree spatial search results with node visitation tracking</li>
+   <li>Successful record insertions and deletions across all tree structures</li>
+   <li>Range query results for dates and costs</li>
+   <li>Location-based search results showing seminars within specified radius</li>
+   <li>Tree structure visualizations with proper indentation showing the hierarchy of nodes</li>
+</ul></p>
+
+                    <!-- Notes -->
+<h2>Notes</h2>
+<p>Due to Virginia Tech's Academic Honor Code, the actual implementation code cannot be shared publicly. 
+    The details provided above focus on the design concepts, technical approaches, and results while 
+    maintaining academic integrity.</p>
+                </section>
+            </div>
+
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
